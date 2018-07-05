@@ -1,1 +1,1 @@
-# minimalist_podomoro
+# Minimalist Podomoro Timer
