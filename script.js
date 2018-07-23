@@ -27,6 +27,7 @@ startButton.onclick = function() {
 }
 
 function setPodomoro() {
+  document.getElementById("currentPod").innerHTML = "Work"
 
   if(secondes_podo.toString().length < 2){
     secondes_podo = "0" + secondes_podo;
@@ -63,6 +64,7 @@ function setPodomoro() {
 
 
 function setBreak() {
+  document.getElementById("currentPod").innerHTML = "Break"
   if(secondes_break.toString().length < 2){
     secondes_break = "0" + secondes_break;
   }
@@ -90,6 +92,7 @@ function setBreak() {
 
 
 function setLongBreak() {
+  document.getElementById("currentPod").innerHTML = "Long break"
   if(secondes_long_break.toString().length < 2){
     secondes_long_break = "0" + secondes_long_break;
   }
