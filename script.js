@@ -38,7 +38,7 @@ function setPodomoro() {
 
   //Display countdown
   document.getElementById("clockdiv").innerHTML = minutes_podo + ":" + secondes_podo;
-  document.title = minutes_podo + ":" + secondes_podo;
+  document.title = minutes_podo + ":" + secondes_podo + " - " + "Work";
 
   secondes_podo--;
   if(secondes_podo < 0){
@@ -74,7 +74,7 @@ function setBreak() {
 
   //Display countdown
   document.getElementById("clockdiv").innerHTML = minutes_break + ":" + secondes_break;
-  document.title = minutes_break + ":" + secondes_break;
+  document.title = minutes_break + ":" + secondes_break + " - " + "Break";
 
   secondes_break--;
   if(secondes_break < 0){
@@ -102,7 +102,7 @@ function setLongBreak() {
 
   //Display countdown
   document.getElementById("clockdiv").innerHTML = minutes_long_break + ":" + secondes_long_break;
-  document.title = minutes_long_break + ":" + secondes_long_break;
+  document.title = minutes_long_break + ":" + secondes_long_break + " - " + "Long break";
 
   secondes_long_break--;
   if(secondes_long_break < 0){
